@@ -1,0 +1,9 @@
+Background - #181719
+Text/Logo/LogoOutline - #FFFFFF
+NavBTN - #F2F2F2
+ProfileBio - #828282
+Footer - #A9A9A9
+
+Primary - Montserrat - regular - bold
+Logo - Crimson Pro - regular
+H1/H2 - Lora - bold
