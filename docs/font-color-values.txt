@@ -7,3 +7,5 @@ Footer - #A9A9A9
 Primary - Montserrat - regular - bold
 Logo - Crimson Pro - regular
 H1/H2 - Lora - bold
+
+<i class="fas fa-long-arrow-alt-right"></i>
