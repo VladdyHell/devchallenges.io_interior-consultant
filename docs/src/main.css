@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora:wght@400&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora:wght@400&family=Montserrat:wght@400;600;700&display=swap');
+
+:root, body {
+    height: 100%;
+}
 
 :root {
     margin: 0;
     padding: 0;
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -25,6 +30,8 @@ h1, h2 {
 * {
     box-sizing: border-box;
 }
+
+/* ///NAVBAR/// */
 
 .navbar {
     flex: auto;
@@ -67,11 +74,13 @@ h1, h2 {
     display: none;
 }
 
+/* ///HERO SECTION/// */
+
 .hero-text-container {
     display: flex;
     flex-direction: column;
     padding-top: 1.6rem;
-    padding-bottom: 3.2rem;
+    padding-bottom: 3.6rem;
 }
 
 .hero-text-container h1 {
@@ -109,4 +118,77 @@ h1, h2 {
     font-size: 1.4rem;
     align-self: flex-end;
     transform: scale(1.6, 1);
+}
+
+/* ///PROFILE CARD/// */
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card img {
+    /* background-image: url(../images/photo1.png); */
+    width: 100%;
+    z-index: 1;
+}
+
+.profile-card .profile {
+    background: #181719;
+    margin-top: -5.4rem;
+    margin-right: -2.8rem;
+    padding: 1.4rem 2.2rem;
+    width: 30rem;
+    height: 13.6rem;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 .1rem .8rem #090909;
+}
+
+.profile-card .profile .profile-img-text {
+    display: flex;
+    place-content: center flex-start;
+    margin-bottom: 2rem;
+}
+
+.profile-card .profile img {
+    width: 3.72rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-card .profile .profile-img-text .profile-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.4rem;
+    justify-content: space-between;
+}
+
+.profile-card .profile h3 {
+    /* display: inline; */
+    margin: .4rem 0;
+    text-transform: capitalize;
+    font-size: 1.16rem;
+    font-weight: 600;
+}
+
+.profile-card .profile p {
+    /* display: inline; */
+    margin: 0;
+    margin-bottom: .4rem;
+    color: #828282;
+    font-weight: 600;
+    font-size: 1.02rem;
+}
+
+.profile-card .profile h2 {
+    margin: 0;
+    margin-left: -.4rem;
+    font-size: 1.72rem;
+    width: 19.6rem;
+}
+
+footer {
+    margin-top: 5rem;
 }
