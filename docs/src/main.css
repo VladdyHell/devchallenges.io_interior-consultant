@@ -13,7 +13,7 @@
 body{
     margin: 0;
     padding: 0;
-    min-height: 150vh;
+    background-color: #181719;
 }
 
 .container {
@@ -118,6 +118,23 @@ h1, h2 {
     font-size: 1.4rem;
     align-self: flex-end;
     transform: scale(1.6, 1);
+}
+
+@media (min-width: 576px) {
+    .hero-text-container {
+        align-items: center;
+    }
+    .hero-text-container p {
+        width: auto;
+        max-width: 376px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-text-container p{
+        max-width: 576px;
+    }
 }
 
 /* ///PROFILE CARD/// */
