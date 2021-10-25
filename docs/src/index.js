@@ -5,12 +5,19 @@ function navToggle() {
     let root = document.querySelector(":root");
 
     openNav.addEventListener('click', ()=> {
-        nav.classList.toggle("nav-active");
         root.classList.toggle("overflow-inactive");
+        nav.style.display = "block";
+        // nav.style.transform = "translateX(100vw)";
+        setTimeout(()=>{
+            nav.classList.add("nav-active");
+        },10);
     });
     closeNav.addEventListener('click', ()=> {
-        nav.classList.toggle("nav-active");
         root.classList.toggle("overflow-inactive");
+        nav.classList.remove("nav-active");
+        setTimeout(()=>{
+            nav.style.display = "none";
+        },500);
     });
 }
 

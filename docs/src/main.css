@@ -84,7 +84,7 @@ h1, h2 {
 
 /* NAVIGATION MENU */
 nav {
-    /* display: none; */
+    display: none;
     position: fixed;
     left: 0;
     top: 0;
