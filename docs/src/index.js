@@ -17,7 +17,7 @@ function navToggle() {
         nav.classList.remove("nav-active");
         setTimeout(()=>{
             nav.style.display = "none";
-        },500);
+        },400);
     });
 }
 
