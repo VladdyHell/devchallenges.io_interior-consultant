@@ -31,12 +31,12 @@
        transform="matrix(0.793666,0,0,0.822399,-4.04024,-3.9916)"
        label="Layer 1">
       <path
-         style="opacity:0.8;fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4"
+         style="opacity:0.8;fill:#FFFFFF;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4"
          id="imagebot_5"
          d="m 5.09028,4.85182 21.9686,22.1472"
          stroke-miterlimit="4" />
       <path
-         style="opacity:0.8;fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4"
+         style="opacity:0.8;fill:#FFFFFF;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4"
          id="imagebot_4"
          d="M 5.09028,26.99902 27.05888,4.85182"
          stroke-miterlimit="4" />

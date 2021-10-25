@@ -3,6 +3,17 @@
 :root, body {
     height: 100%;
     --primary-color: #181719;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: auto;
+}
+
+.overflow-inactive {
+    overflow-y: hidden;
 }
 
 :root {
@@ -73,7 +84,7 @@ h1, h2 {
 
 /* NAVIGATION MENU */
 nav {
-    display: none;
+    /* display: none; */
     position: fixed;
     left: 0;
     top: 0;
@@ -81,10 +92,13 @@ nav {
     width: 100vw;
     height: 100vh;
     z-index: 999;
+    transition: 0.4s;
+    transform: translateX(100vw);
 }
 
 .nav-active {
-    display: block;
+    /* display: block; */
+    transform: translateX(0);
 }
 
 nav .container {
@@ -93,6 +107,7 @@ nav .container {
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding: 1.6rem 1.2rem !important;
     /* justify-content: space-between; */
 }
 
@@ -120,13 +135,23 @@ nav .container .list-container ul {
     place-content: center space-between;
     padding: 0;
     font-size: 1.8rem;
-    height: 17.6rem;
+    height: 18.6rem;
     text-align: center;
-    margin-top: -4rem;
+    margin-top: -10rem;
 }
 
 nav .container ul li {
     list-style-type: none;
+    font-weight: 500;
+}
+
+nav .container ul li a {
+    color: unset;
+    text-decoration: none;
+}
+
+.nav-btn-active {
+    font-weight: 700 !important;
 }
 
 /* ///HERO SECTION/// */

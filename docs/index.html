@@ -19,23 +19,21 @@
                 <div class="brand-logo">
                     <a href="javascript:void(0);">this interior</a>
                 </div>
-                <img src="icons/menu-icon.svg" alt="open-nav">
-                <nav>
-                    <img src="icons/close_icon_black2.svg" alt="close-nav">
-                    <ul>
-                        <li>Home</li>
-                    </ul>
-                    <ul>
-                        <li>Collection</li>
-                    </ul>
-                    <ul>
-                        <li>About</li>
-                    </ul>
-                    <ul>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
+                <img id="open-nav" src="icons/menu-icon.svg" alt="open-nav">
             </div>
+            <nav id="nav">
+                <div class="container">
+                    <img id="close-nav" src="icons/close_icon_black2.svg" alt="close-nav">
+                    <div class="list-container">
+                        <ul>
+                            <li><a href="javascript:void(0)">Home</a></li>
+                            <li><a href="javascript:void(0)">Collection</a></li>
+                            <li><a href="javascript:void(0)">About</a></li>
+                            <li><a href="javascript:void(0)">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
 
         <div class="hero-text-container">
@@ -62,6 +60,7 @@
             created by <span>Vladd</span> - devChallenges.io
         </footer>
     </div>
+    <script src="./src/index.js"></script>
 </body>
 
 </html>

@@ -3,8 +3,8 @@ const app = express();
 
 app.use(express.static('docs'));
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + 'public/index.html');
+app.get(['/', '/home', '/collection', '/about', '/contact'], (req, res) => {
+    res.sendFile(__dirname + '/docs/index.html');
 });
 
 let port = process.env.PORT;
