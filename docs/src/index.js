@@ -36,12 +36,12 @@ function navDesktopShow(x) {
     }
 }
 
-let x = window.matchMedia("(min-width: 1080px)");
+let x = window.matchMedia("(min-width: 992px)");
 navDesktopShow(x);
 x.addListener(navDesktopShow);
 
 // window.addEventListener('resize', () => {
-//     if (window.innerWidth >= 1080) {
+//     if (window.innerWidth >= 992) {
 //         root.classList.remove("overflow-inactive");
 //         nav.style.display = "block";
 //         nav.classList.add("nav-active");
@@ -70,7 +70,7 @@ function highlightNavText() {
             link.style.textDecoration = "none";
         }
     }
-    let x = window.matchMedia("(min-width: 1080px)");
+    const x = window.matchMedia("(min-width: 992px)");
 
     switch (path) {
         case '':
